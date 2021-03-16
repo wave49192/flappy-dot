@@ -46,6 +46,9 @@ class PillarPair(Sprite):
 
     def update(self):
         self.x -= self.vx
+        if self.x < -30:
+            self.x = 800
+
 
 
 # commit again
