@@ -50,6 +50,7 @@ class PillarPair(Sprite):
             self.x = 800
 
 
+
 # commit again
 if __name__ == "__main__":
     root = tk.Tk()
